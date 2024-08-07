@@ -1,0 +1,15 @@
+{
+ "name": "my-crud-app",
+ "version": "1.0.0",
+ "description": "CRUD application with MongoDB and Ably",
+ "main": "server.js",
+ "scripts": {
+  "start": "node server.js"
+ },
+ "dependencies": {
+  "ably": "^1.2.27",
+  "body-parser": "^1.19.0",
+  "express": "^4.17.1",
+  "mongoose": "^6.0.12"
+ }
+}
